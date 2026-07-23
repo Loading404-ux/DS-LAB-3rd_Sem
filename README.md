@@ -7,7 +7,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue.svg)
 ![Semester](https://img.shields.io/badge/Semester-3rd-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-KIIT-yellow.svg)
 
 </div>
 
