@@ -27,15 +27,15 @@ int main()
   }
   
   //print statement using Structure
-  printf("Employee Information: \n\n");
+  printf("\nEmployee Information: \n   ");
   
   for(int i=1;i<=n;i++)
   {
-   printf("Name: %s",no[i].name);
-   printf("Designation: %s",no[i].design);
-   printf("Basic Salary: %d",no[i].basic_salary);
-   printf("HRA %%: %hd",no[i].hra);
-   printf("DA %%: %hd",no[i].da);
+   printf("Name: %s\n",no[i].name);
+   printf("Designation: %s\n",no[i].design);
+   printf("Basic Salary: %d\n",no[i].basic_salary);
+   printf("HRA %%: %hd\n",no[i].hra);
+   printf("DA %%: %hd\n",no[i].da);
   }
   
   return 0;
