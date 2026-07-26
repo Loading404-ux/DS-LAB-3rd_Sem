@@ -28,7 +28,6 @@ int main()
   
   //print statement using Structure
   printf("\nEmployee Information: \n   ");
-  
   for(int i=1;i<=n;i++)
   {
    printf("Name: %s\n",no[i].name);
@@ -36,6 +35,8 @@ int main()
    printf("Basic Salary: %d\n",no[i].basic_salary);
    printf("HRA %%: %hd\n",no[i].hra);
    printf("DA %%: %hd\n",no[i].da);
+   int gross_salary=(no[i].basic_salary+((no[i].hra/100)*no[i].basic_salary))+((no[i].da/100)*no[i].basic_salary);
+   printf("Gross Salary: %d",gross_salary);
   }
   
   return 0;
