@@ -2,8 +2,8 @@
 
 struct Employee
 {
-  char name[50];
-  char design[50];
+  char name[20];
+  char design[20];
   int basic_salary;
    int hra;
    int da; 
@@ -16,9 +16,9 @@ int main()
   scanf("%d",&n);
   struct Employee no[n];
   //input using Structure
-  for(int i=1;i<=n;i++)
+  for(int i=0;i<n;i++)
   {
-   printf("Enter employee %d information: \n",i);
+   printf("Enter employee %d information: \n",i+1);
    scanf(" %[^\n]",no[i].name);
    scanf(" %[^\n]",no[i].design);
    scanf("%d",&no[i].basic_salary);
@@ -27,8 +27,8 @@ int main()
   }
   
   //print statement using Structure
-  printf("\nEmployee Information: \n   ");
-  for(int i=1;i<=n;i++)
+  printf("\nEmployee Information: \n");
+  for(int i=0;i<n;i++)
   {
    printf("Name: %s\n",no[i].name);
    printf("Designation: %s\n",no[i].design);
