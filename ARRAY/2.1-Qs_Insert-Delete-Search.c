@@ -1,18 +1,13 @@
 #include<stdio.h>
 
-void addElement(int arr[],int temp,int item,int place)
+void addElement(int arr[],int size,int num,int pos)
 {
-  int t1=temp;
-  for(int i=0;i<temp;i++)
+  for(int i=size-1;i>=pos-1;i--)
   {
-   if(i>=place)
-   {
-     arr[t1]=arr[t1-1];
-     t1--;
-   }
+    arr[i+1]=arr[i];
   }
-  arr[place]=item;
-  for(int i=0;i<temp;i++)
+  arr[pos-1]=num;
+  for(int i=0;i<size;i++)
     printf("%d ",arr[i]);
 }
 
@@ -67,15 +62,14 @@ int main()
  scanf("%d",&choice);
  if(choice==1)
  {
-   int item,place,temp;
-   temp=size+1;
-   arr[temp];
+   int num,pos,newSize;
+   newSize=size+1;
+   arr[newSize];
    printf("Enter the Element to be Inserted: ");
-   scanf("%d",&item);
+   scanf("%d",&num);
    printf("Enter the Place where the elemet to be Inserted: ");
-   scanf("%d",&place);
-   place=place-1;
-   addElement(arr,temp,item,place);
+   scanf("%d",&pos);
+   addElement(arr,newSize,num,pos);
  }
  else
  if(choice==2)
