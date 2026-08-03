@@ -7,44 +7,44 @@ struct Address
     int pin;
 };
 
-struct Student
+struct Employee
 {
     char name[20];
-    int roll;
+    int emp_code;
     struct Address addr;
 };
 
 int main()
 {
-    struct Student s1;
-    printf("Enter Student Details: \n");
+    struct Employee e1;
+    printf("Enter Employee Details: \n");
     printf("Enter name: ");
-    scanf(" %[^\n]", s1.name);
+    scanf(" %[^\n]", e1.name);
 
-    printf("Enter Roll no.: ");
-    scanf("%d", &s1.roll);
+    printf("Enter Employee code no.: ");
+    scanf("%d",  &e1.emp_code);
 
     printf("Enter Hosue no.: ");
-    scanf(" %[^\n]", s1.addr.house_no);
+    scanf(" %[^\n]", e1.addr.house_no);
 
     printf("Enter City: ");
-    scanf(" %[^\n]", s1.addr.city);
+    scanf(" %[^\n]", e1.addr.city);
 
     printf("Enter Pin Code: ");
-    scanf("%d", s1.addr.pin);
+    scanf("%d", &e1.addr.pin);
 
-    printf("\nStudent Information\n");
+    printf("\n Employee Information\n");
     printf("\n-----------------\n");
 
-    printf("Name: %s\n", s1.name);
+    printf("Name: %s\n", e1.name);
 
-    printf("Roll no.: %d\n", s1.roll);
+    printf("Employee Code no.: %d\n", e1.emp_code);
 
-    printf("House Number: %s\n", s1.addr.house_no);
+    printf("House Number: %s\n", e1.addr.house_no);
 
-    printf("City: %s\n",s1.addr.city );
+    printf("City: %s\n", e1.addr.city );
 
-    printf("Pin Code: %d\n",s1.addr.pin);
+    printf("Pin Code: %d\n",e1.addr.pin);
 
     return 0;
 }
