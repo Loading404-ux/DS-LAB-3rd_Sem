@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//addElement - Optimized
 void addElement(int arr[],int size,int num,int pos)
 {
   for(int i=size-1;i>=pos-1;i--)
@@ -7,18 +8,16 @@ void addElement(int arr[],int size,int num,int pos)
     arr[i+1]=arr[i];
   }
   arr[pos-1]=num;
+  printf("\nThe Elements are:\n");
   for(int i=0;i<size;i++)
     printf("%d ",arr[i]);
 }
 
-void deleteElement(int arr[],int size,int item,int pos)
+void deleteElement(int arr[],int size,int pos)
 {
-  for(int i=0;i<size;i++)
+  for(int i=pos;i<size;i++)
   {
-    if(i>=pos)
-    {
       arr[i]=arr[i+1]; 
-    }
   }
   for(int i=0;i<size-1;i++)
     printf("%d ",arr[i]);
@@ -85,7 +84,7 @@ int main()
      }
     }
     if(pos!=-1)
-    deleteElement(arr,size,item,pos);
+    deleteElement(arr,size,pos);
     else
     printf("Enter Element is not present!!!\n Code Terminated!!!\n");
  }
