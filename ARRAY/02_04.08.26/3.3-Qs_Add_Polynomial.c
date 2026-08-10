@@ -1,6 +1,21 @@
 #include<stdio.h>
 
-
+void addPoly(int poly1[],int poly2[],int maxX)
+{
+  int add[maxX];
+  
+  for(int i=0;i<=maxX;i++)
+  {
+    add[i]=poly1[i]+poly2[i];
+  }
+  for(int i=maxX;i>=0;i--)
+  {
+    if(i==0)
+    printf("%dx^%d ",add[i],i);
+    else
+    printf("%dx^%d + ",add[i],i);
+  }
+}
 int main()
 {
   int maxX;
@@ -20,18 +35,6 @@ int main()
     scanf("%d",&poly2[i]);
   }
   
-  int addPoly[maxX];
-  
-  for(int i=0;i<=maxX;i++)
-  {
-    addPoly[i]=poly1[i]+poly2[i];
-  }
-  for(int i=maxX;i>=0;i--)
-  {
-    if(i==0)
-    printf("%dx^%d",addPoly[i],i);
-    else
-    printf("%dx^%d+",addPoly[i],i);
-  }
+  add(poly1,poly2,maxX);
   return 0;
 }

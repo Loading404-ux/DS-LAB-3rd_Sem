@@ -1,5 +1,22 @@
 #include<stdio.h>
 
+void multiPloynomial(int poly1[],int poly2[],int maxX)
+{
+    int multiPoly[maxX];
+  
+  for(int i=0;i<=maxX;i++)
+  {
+    multiPoly[i]=poly1[i]*poly2[i];
+  }
+  printf("Resultant Polynomial :\n");
+  for(int i=maxX;i>=0;i--)
+  {
+    if(i==0)
+    printf("%dx^%d",multiPoly[i],i*i);
+    else
+    printf("%dx^%d+",multiPoly[i],i*i);
+  }
+}
 
 int main()
 {
@@ -20,19 +37,7 @@ int main()
     scanf("%d",&poly2[i]);
   }
   
-  int multiPoly[maxX];
-  
-  for(int i=0;i<=maxX;i++)
-  {
-    multiPoly[i]=poly1[i]*poly2[i];
-  }
-  printf("Resultant Polynomial :\n");
-  for(int i=maxX;i>=0;i--)
-  {
-    if(i==0)
-    printf("%dx^%d",multiPoly[i],i*i);
-    else
-    printf("%dx^%d+",multiPoly[i],i*i);
-  }
+  multiPloynomial(poly1,poly2,maxX);
+
   return 0;
 }
