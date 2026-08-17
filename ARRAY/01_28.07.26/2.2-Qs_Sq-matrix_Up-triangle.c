@@ -15,9 +15,21 @@ void upperTriangular(int size,int arr[size][size])
     printf("\n");
    }
 }
-
-
-
+void above_belowDiagonal(int size,int arr[size][size])
+{
+    printf("Elements Above and below the Main diagonal:\n");
+    for(int i=0;i<size;i++)
+   {
+    for(int j=0;j<size;j++)
+    {
+        if(i==j)
+        printf("  ");
+        else
+        printf("%d ",arr[i][j]);
+    }
+    printf("\n");
+   }
+}
 int main()
 {
     int size,no_zero=0;
@@ -47,13 +59,8 @@ int main()
         printf("\n");
     }
     printf("The Total no. of non-zero Elements: %d\n",no_zero);
-
     upperTriangular(size,arr);
-
-
-
-
-
+    above_belowDiagonal(size,arr);
     return 0;
 
 }
