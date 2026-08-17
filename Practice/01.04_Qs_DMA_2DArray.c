@@ -5,7 +5,7 @@ void displayMatrix(int **matrix,int rows,int cols)
 {
     printf("\nThe Elements are :\n");
     for(int i=0;i<rows;i++)
-    {
+   {
         for(int j=0;j<cols;j++)
         {
             printf("%d\t",matrix[i][j]);
