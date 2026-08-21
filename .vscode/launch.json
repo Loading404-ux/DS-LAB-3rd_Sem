@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/DS-LAB-3rd_Sem/ARRAY",
-      "program": "c:/DS-LAB-3rd_Sem/ARRAY/build/Debug/outDebug",
+      "cwd": "c:/DS-LAB-3rd_Sem/ARRAY/ARRAY-SYLLABUS",
+      "program": "c:/DS-LAB-3rd_Sem/ARRAY/ARRAY-SYLLABUS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
