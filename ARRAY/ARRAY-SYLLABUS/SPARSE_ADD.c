@@ -26,11 +26,9 @@ void displaySparse(struct Sparse n[2],int size)
 void addSparse(struct Sparse n[2],int size)
 {
     struct Sparse add;
-    printf("\nRow\tCol\tvalue\n\n");
 
 
     int c=0;
-    int i,j;
         for(int i=0;i<size;i++)
         {
             int found=0;

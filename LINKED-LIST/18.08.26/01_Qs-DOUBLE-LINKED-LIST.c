@@ -22,7 +22,7 @@ struct Node* createNode(int value)
 }
 
 
-void insertAtBegining()
+struct Node* insertAtBegining()
 {
     struct Node *newNode=(struct Node*)malloc(sizeof(struct Node));
     printf("\nEnter the new data :");
@@ -39,7 +39,7 @@ void insertAtBegining()
 }
 
 // Insertion at End
-void insertAtEnd()
+struct Node* insertAtEnd()
 {
     struct Node *newNode=(struct Node*)malloc(sizeof(struct Node));
     struct Node *temp;
@@ -64,7 +64,7 @@ void insertAtEnd()
     newNode->prev=temp;
 }
 
-void insertAtPosition()
+struct Node* insertAtPosition()
 {
     struct Node *newNode;
     struct Node *temp;
