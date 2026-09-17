@@ -35,6 +35,6 @@ int main()
     scanf("%d",&poly2[i]);
   }
   
-  add(poly1,poly2,maxX);
+  addPoly(poly1,poly2,maxX);
   return 0;
 }

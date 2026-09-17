@@ -1,0 +1,17 @@
+(a+b)/c*d-e^f
+ab+/cd*-ef^
+ab+cd*/-ef^
+ab+cd*/ef^-
+
+
+
+( a + b - c ) * d – ( e + f )
+(ab+c-)*d-(ef+)
+ab+c-d*-ef+
+ab+c-d*ef+-
+
+
+2*3/(2-1)+5*3 to Postfix
+23*/21-+53*
+23*21-/+53*
+23*21-/53*+
