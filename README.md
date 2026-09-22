@@ -66,7 +66,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 ---
 
-## 📌 Unit 4 – Stack & Queue  <b>DONE</b>
+## 📌 Unit 4 – Stack & Queue  <b style="color : green">(DONE)</b>
 
 ### Stack
 
