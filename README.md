@@ -23,7 +23,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 # 📂 Course Contents
 
-## 📌 Unit 1 – Introduction
+## 📌 Unit 1 – Introduction  <b>DONE</b>
 
 - Introduction to Data Structures
 - Algorithm Specification
@@ -33,7 +33,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 ---
 
-## 📌 Unit 2 – Arrays
+## 📌 Unit 2 – Arrays  <b>DONE</b>
 
 - Array Basics
 - Address Calculation
@@ -52,7 +52,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 ---
 
-## 📌 Unit 3 – Linked List
+## 📌 Unit 3 – Linked List  <b>DONE</b>
 
 - Introduction
 - Types of Linked Lists
@@ -66,7 +66,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 ---
 
-## 📌 Unit 4 – Stack & Queue
+## 📌 Unit 4 – Stack & Queue  <b>DONE</b>
 
 ### Stack
 
