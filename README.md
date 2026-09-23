@@ -89,7 +89,7 @@ It covers fundamental data structures, algorithms, searching, sorting, trees, gr
 
 ---
 
-## 📌 Unit 5 – Trees <b style="color:yellow">ON GOING</b>
+## 📌 Unit 5 – Trees <b style="background-color:yellow">ON GOING</b>
 
 - Tree Terminology
 - Binary Trees
