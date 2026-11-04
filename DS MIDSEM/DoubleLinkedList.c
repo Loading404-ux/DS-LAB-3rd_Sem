@@ -148,7 +148,7 @@ struct Node* insertAtSpecPOS()
         temp=temp->next;
     }
 
-    if(pos>c+1 || c<1)
+    if(pos>c+1 || pos<1)
     {
         printf("Invalid Position !!\n");
         return;
